@@ -28,7 +28,7 @@ log = logging.getLogger(__name__)
 
 
 class TCP:
-    TIMEOUT = 10
+    TIMEOUT = 1000
 
     def __init__(self, ipv6: bool, proxy: dict):
         self.socket = None
