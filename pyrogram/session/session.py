@@ -45,8 +45,8 @@ class Result:
 
 
 class Session:
-    START_TIMEOUT = 200
-    WAIT_TIMEOUT = 200
+    START_TIMEOUT = 2000
+    WAIT_TIMEOUT = 2000
     SLEEP_THRESHOLD = 10
     MAX_RETRIES = 10
     ACKS_THRESHOLD = 10
